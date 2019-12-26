@@ -1,0 +1,63 @@
+/*This is the CSS file for Pacific Heights Trails */
+   /* Removes the bullets on ul list in a slide show */
+.nobullets{
+	list-style-type:none;
+	padding-left:0;
+}
+
+/*Adds a margin underneath each image in the slide show */
+.boxstyle{
+	margin-bottom:20px;
+}
+
+/*Centers the images and sets a max width of 700px */
+.wb-carousel{
+	max-width:1400px;
+	margin:20px auto;
+}
+
+main, .navbar .container-fluid{
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+}
+
+footer{
+	text-align: center;
+
+
+}
+.footer-ibrahim { 
+list-style-type: none;
+color: blue;
+
+}
+footer li {  
+display: inline; 
+}
+footer a{ 
+text-decoration: none; 
+    padding-right: 10px; 
+    margin: 2em;
+    color: red;
+
+}
+footer a i.fa{
+	font-size: 50px !important; 
+
+}
